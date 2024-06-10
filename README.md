@@ -39,3 +39,20 @@ Dev language for [golang](https://golang.org/).
 +-----------------+
 (LAYER MODEL OF KCP-GO)
 ```
+
+
+```
+          青联互联
+
+--------   青联  Play  ------------
+| 青联Play <--------->  XoRPC     |
+--------   青联  loT  -------------
+| 青联loT <--------->  XoRPC      |
+--------   XoRPC   ---------------
+| PRUDP  青联可靠UDP传输协议        |
+| PMUX   青联多路复用协议           |
+| PTUN   青联组网框架              |
+--------  XoRPC plugins   --------
+| LP        雪崩补丁               |
+| NTMP 节点传输模式补丁             |
+```
